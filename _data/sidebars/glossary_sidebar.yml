@@ -1,0 +1,155 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Glossary
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: 0-9 A-B
+    output: web, pdf
+    folderitems:
+    - title: A
+      url: /a.html
+      output: web
+
+    - title: B
+      url: /b.html
+      output: web, pdf
+
+    - title: C
+      url: /c.html
+      output: web, pdf
+
+  - title: C-D-E
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+  - title: F-G-H
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+  - title: I-J-K
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+  - title: L-M-N
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+  - title: O-P-Q
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+    - title: F
+      url: /f.html
+      output: web, pdf
+
+  - title: R-S-T
+    output: web, pdf
+    folderitems:
+    - title: D
+      url: /d.html
+      output: web
+
+    - title: E
+      url: /e.html
+      output: web, pdf
+
+  - title: U-V-W
+    output: web, pdf
+    folderitems:
+    - title: U
+      url: /d.html
+      url: "/w/"
+      output: web
+
+    - title: V
+      url: /z.html
+      output: web, pdf
+
+    - title: W
+      url: "/w"
+      url: "/w.html"
+      output: web, pdf
+
+  - title: X-Y-Z
+    output: web, pdf
+
+    folderitems:
+    - title: X
+      url: /x.html
+      output: web, pdf
+
+    - title: Y
+      url: /y.html
+      output: web, pdf
+
+    - title: Z
+      url: /z.html
+      output: web, pdf
