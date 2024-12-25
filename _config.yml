@@ -9,8 +9,13 @@ plugins:
 # For youtube and pdf embed content
 
 
+url: https://glossary-v2.midtown.ai
+baseurl: ""
+# Set custom domain
+
 assets: "/assets"
-# Custom variables readable from everywhere with {{site.<variable}} which is then replaced by its value
+# Other custom variables readable from anywhere
+# Use {{site.<variable}} which will then replaced by its value
 
 topnav_title: Jekyll Documentation Theme
 # this appears on the top navigation bar next to the home button
@@ -121,8 +126,6 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # needed for sitemap.xml file only
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
-url: http://glossary-v2.midtown.ai
-baseurl: ""
 
 github: [metadata]
 
